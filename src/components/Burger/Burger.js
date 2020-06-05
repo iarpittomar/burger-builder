@@ -10,8 +10,6 @@ const burger = (props) => {
             });
         })
         .reduce((previousValue, currentValue) => {
-            console.log("previos", previousValue);
-            console.log("current", currentValue);
             return previousValue.concat(currentValue);
         }, []);
 
